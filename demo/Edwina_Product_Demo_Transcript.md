@@ -2,43 +2,41 @@
 
 Captured prototype state transitions with narration. Synthetic data; proposed, simulated integrations.
 
-00:00 — School: Cover for nine o’clock
-00:20 — Edwin: A shortlist you can act on
-00:35 — Edwin: See how the shortlist was built
-00:57 — Candidate: One place to manage the working day
-01:11 — Candidate: Confirm availability now
-01:26 — Edwin: The response updates Sarah’s shortlist
-01:40 — Candidate: Accept with the details in view
-01:53 — Edwin: Existing systems, one workflow
-02:13 — School: Confirmed cover on the school overview
-02:26 — School: Keep the personal connection
-02:38 — Candidate: The message reaches the educator
-02:51 — Candidate: Recommended work beyond this assignment
-03:07 — MAT: See the trust, then investigate
-03:24 — MAT: A reporting centre for everyday questions
-03:44 — MAT: Compare the drivers of demand and spend
-04:01 — MAT: Share the filtered view
-04:15 — MAT: An example of the shareable PDF
-04:33 — MAT: Anticipate cover demand
-04:48 — MAT: Understand the cost outlook
-05:04 — MAT: Turn insight into a planning conversation
-05:25 — Sub Vendor: A separate request through the same network
-05:43 — Sub Vendor: Submit a candidate with evidence
-05:57 — Sub Vendor: Follow the submission through review
-06:12 — Edwin: Roll out automation in stages
-06:35 — Edwin: Connected service, clear ownership
+00:00 — School: Helen asks Edwin for a teacher
+00:26 — Edwin: A shortlist you can act on
+00:42 — Edwin: See how the shortlist was built
+01:14 — Candidate: One place to manage the working day
+01:27 — Candidate: Confirm availability now
+01:42 — Edwin: The response updates Sarah’s shortlist
+01:57 — Candidate: Accept with the details in view
+02:10 — Edwin: Existing systems, one workflow
+02:30 — School: Confirmed cover on the school overview
+02:43 — School: Keep the personal connection
+02:55 — Candidate: The message reaches the educator
+03:08 — Candidate: Recommended work beyond this assignment
+03:23 — MAT: See the trust, then investigate
+03:41 — MAT: A reporting centre for everyday questions
+04:01 — MAT: Compare the drivers of demand and spend
+04:18 — MAT: Share the filtered view
+04:32 — MAT: An example of the shareable PDF
+04:50 — MAT: Anticipate cover demand
+05:05 — MAT: Understand the cost outlook
+05:21 — MAT: Turn insight into a planning conversation
+05:42 — Sub Vendor: Submit a candidate with evidence
+05:57 — Edwin: Roll out automation in stages
+06:20 — Edwin: Connected service, clear ownership
 
-## School — Cover for nine o’clock
+## School — Helen asks Edwin for a teacher
 
-It is eight a.m. A school needs a Year Six maths teacher in Grimsby for nine. Edwina brings portal, WhatsApp and consultant-logged phone requests into one booking. This demonstration uses illustrative data and simulated integrations.
+At eight a.m., Helen Davies, the school cover manager, asks Edwin for a Year Six maths teacher for nine. Helen makes the request; Sarah is her consultant at Edwin. This example uses WhatsApp. Edwina structures the request and helps Sarah find cover. Integrations are simulated in this prototype.
 
 ## Edwin — A shortlist you can act on
 
-Sarah sees the requirement, deadline and next step in one workspace. Instead of searching thousands of profiles manually, she starts with two eligible educators, ordered by suitability.
+Sarah sees the requirement, deadline and next step in one workspace. Instead of searching thousands of profiles manually, she starts with six potentially suitable educators, ordered by suitability.
 
 ## Edwin — See how the shortlist was built
 
-The filters explain the result: relevant experience, travel preferences, current checks, calendar availability and arrival time. Every requirement must pass. Only then are eligible candidates ranked using experience, previous MAT work and feedback.
+The filters explain the result: relevant experience, a journey estimate, current checks, calendar availability and arrival time. Every requirement must pass. Travel preference is not an eligibility filter. The educator must confirm their starting point, travel mode and departure before an offer. Suitable candidates are ranked using experience, previous MAT work and feedback.
 
 ## Candidate — One place to manage the working day
 
@@ -108,17 +106,9 @@ The monthly cost view combines worked spend, confirmed future cover and an allow
 
 Rachel can test higher demand and review the requirements by school. Confirmed cover is separated from further demand. She can review a requirement with Sarah before arranging additional cover. Forecasts here are illustrative, not validated predictions.
 
-## Sub Vendor — A separate request through the same network
-
-Now consider a separate request, E D M two oh one. BrightPath sees its own opportunities, capacity declarations, assignments and finance. Ben’s earlier confirmed booking is a different record.
-
 ## Sub Vendor — Submit a candidate with evidence
 
-Olivia proposes Eva, confirms availability and provides the charge to Edwin and the evidence pack. Internal purchasing information stays separate from the school’s agreed booking.
-
-## Sub Vendor — Follow the submission through review
-
-BrightPath can track its submitted educator and evidence status. Edwin owns the review and school relationship. The school continues to use its usual booking interface.
+For a separate booking, Edwin asks BrightPath for cover. Olivia submits an available educator and the evidence pack. Edwin reviews the proposal and remains the school’s contact.
 
 ## Edwin — Roll out automation in stages
 

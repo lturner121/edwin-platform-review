@@ -1,190 +1,184 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:01.315
-It is eight a.m.
+00:00:00.000 --> 00:00:08.959
+At eight a.m., Helen Davies, the school cover manager, asks Edwin for a Year Six maths teacher for nine.
 
-00:00:01.315 --> 00:00:06.248
-A school needs a Year Six maths teacher in Grimsby for nine.
+00:00:08.959 --> 00:00:13.955
+Helen makes the request; Sarah is her consultant at Edwin.
 
-00:00:06.248 --> 00:00:13.236
-Edwina brings portal, WhatsApp and consultant-logged phone requests into one booking.
+00:00:13.955 --> 00:00:16.281
+This example uses WhatsApp.
 
-00:00:13.236 --> 00:00:18.909
-This demonstration uses illustrative data and simulated integrations.
+00:00:16.281 --> 00:00:21.191
+Edwina structures the request and helps Sarah find cover.
 
-00:00:20.109 --> 00:00:25.515
+00:00:21.191 --> 00:00:25.068
+Integrations are simulated in this prototype.
+
+00:00:26.268 --> 00:00:31.633
 Sarah sees the requirement, deadline and next step in one workspace.
 
-00:00:25.515 --> 00:00:34.739
-Instead of searching thousands of profiles manually, she starts with two eligible educators, ordered by suitability.
+00:00:31.633 --> 00:00:41.733
+Instead of searching thousands of profiles manually, she starts with six potentially suitable educators, ordered by suitability.
 
-00:00:35.939 --> 00:00:46.750
-The filters explain the result: relevant experience, travel preferences, current checks, calendar availability and arrival time.
+00:00:42.933 --> 00:00:53.394
+The filters explain the result: relevant experience, a journey estimate, current checks, calendar availability and arrival time.
 
-00:00:46.750 --> 00:00:49.115
+00:00:53.394 --> 00:00:55.682
 Every requirement must pass.
 
-00:00:49.115 --> 00:00:56.717
-Only then are eligible candidates ranked using experience, previous MAT work and feedback.
+00:00:55.682 --> 00:00:59.524
+Travel preference is not an eligibility filter.
 
-00:00:57.917 --> 00:01:06.480
+00:00:59.524 --> 00:01:06.880
+The educator must confirm their starting point, travel mode and departure before an offer.
+
+00:01:06.880 --> 00:01:13.418
+Suitable candidates are ranked using experience, previous MAT work and feedback.
+
+00:01:14.618 --> 00:01:23.181
 Ben sees the request on his Today page, alongside availability, timesheets, payroll setup and learning.
 
-00:01:06.480 --> 00:01:09.888
+00:01:23.181 --> 00:01:26.589
 The urgent assignment is the main action.
 
-00:01:11.088 --> 00:01:14.846
+00:01:27.789 --> 00:01:31.547
 Ben confirms that he can leave within five minutes.
 
-00:01:14.846 --> 00:01:20.077
+00:01:31.547 --> 00:01:36.778
 His reply can come through the app or the proposed WhatsApp connection.
 
-00:01:20.077 --> 00:01:25.014
+00:01:36.778 --> 00:01:41.714
 An available calendar is not assumed to mean he is ready to travel.
 
-00:01:26.214 --> 00:01:31.890
+00:01:42.914 --> 00:01:48.591
 Sarah can now see Ben’s readiness, response time and expected arrival.
 
-00:01:31.890 --> 00:01:39.350
+00:01:48.591 --> 00:01:56.051
 His experience and previous MAT work remain visible beside one clear action: send the offer.
 
-00:01:40.550 --> 00:01:46.333
+00:01:57.251 --> 00:02:03.034
 Ben reviews the school, pay, working hours and arrival instructions.
 
-00:01:46.333 --> 00:01:49.820
+00:02:03.034 --> 00:02:06.521
 He acknowledges the briefing and accepts.
 
-00:01:49.820 --> 00:01:52.711
+00:02:06.521 --> 00:02:09.412
 Everyone follows the same booking.
 
-00:01:53.911 --> 00:02:02.359
+00:02:10.612 --> 00:02:19.059
 The proposed llama dot I D connection supplies screening evidence, with Edwin retaining the clearance decision.
 
-00:02:02.359 --> 00:02:09.132
+00:02:19.059 --> 00:02:25.833
 Once Ben accepts and checks pass, the proposed Bullhorn connection records the placement.
 
-00:02:09.132 --> 00:02:12.480
+00:02:25.833 --> 00:02:29.181
 Sarah does not need to re-enter the booking.
 
-00:02:13.680 --> 00:02:19.794
+00:02:30.381 --> 00:02:36.495
 The school sees Ben confirmed, his expected arrival and a link to the booking.
 
-00:02:19.794 --> 00:02:25.281
+00:02:36.495 --> 00:02:41.982
 Helen can focus on welcoming the educator rather than chasing updates.
 
-00:02:26.481 --> 00:02:30.469
+00:02:43.182 --> 00:02:47.170
 Helen sends reception instructions directly to Ben.
 
-00:02:30.469 --> 00:02:37.507
+00:02:47.170 --> 00:02:54.208
 She can also contact Sarah at Edwin in a separate conversation attached to the assignment.
 
-00:02:38.707 --> 00:02:43.053
+00:02:55.408 --> 00:02:59.754
 Ben receives the school’s instructions in the same assignment.
 
-00:02:43.053 --> 00:02:50.203
+00:02:59.754 --> 00:03:06.904
 School-to-candidate communication and the named Edwin contact remain available throughout the booking.
 
-00:02:51.403 --> 00:03:00.403
+00:03:08.104 --> 00:03:17.103
 Candidates can also browse recommended jobs, compare dates, pay and journey information, and register interest.
 
-00:03:00.403 --> 00:03:06.078
+00:03:17.103 --> 00:03:22.779
 Their schedule, pay records and learning remain part of the wider app.
 
-00:03:07.278 --> 00:03:16.651
+00:03:23.979 --> 00:03:33.352
 Rachel’s trust dashboard brings together spend against budget, fill rates, time to fill, open cover and school comparisons.
 
-00:03:16.651 --> 00:03:23.738
+00:03:33.352 --> 00:03:40.439
 She can move from an organisation-wide view into the schools and records that need attention.
 
-00:03:24.938 --> 00:03:28.760
+00:03:41.639 --> 00:03:45.461
 Reporting goes beyond the headline dashboard.
 
-00:03:28.760 --> 00:03:39.971
+00:03:45.461 --> 00:03:56.672
 Choose monthly spend, last academic year, role, education type, booking type, reason for cover, outstanding timesheets or assurance.
 
-00:03:39.971 --> 00:03:43.538
+00:03:56.672 --> 00:04:00.239
 School and date filters define the report.
 
-00:03:44.738 --> 00:03:53.291
+00:04:01.439 --> 00:04:09.992
 The charts make role mix, service-provider spend, reasons for cover and school absence comparisons easier to explore.
 
-00:03:53.291 --> 00:04:00.528
+00:04:09.992 --> 00:04:17.229
 Each view can lead into its supporting report, rather than leaving the user with a headline number.
 
-00:04:01.728 --> 00:04:06.259
+00:04:18.429 --> 00:04:22.959
 Rachel selects spend by job role for the chosen period.
 
-00:04:06.259 --> 00:04:14.249
+00:04:22.959 --> 00:04:30.950
 She can create a PDF to circulate or export the filtered figures into Excel for further analysis.
 
-00:04:15.449 --> 00:04:27.485
+00:04:32.150 --> 00:04:44.186
 This is the report produced by the prototype’s PDF generator: the selected dates, school scope, role totals and definitions travel with the data.
 
-00:04:27.485 --> 00:04:32.134
+00:04:44.186 --> 00:04:48.834
 The Excel export preserves numeric amounts for analysis.
 
-00:04:33.334 --> 00:04:41.701
+00:04:50.034 --> 00:04:58.402
 The term outlook shows when cover demand may rise, with actual observations separated from the forecast scenario.
 
-00:04:41.701 --> 00:04:47.329
+00:04:58.402 --> 00:05:04.029
 Rachel can inspect the weekly values and planning assumptions before acting.
 
-00:04:48.529 --> 00:04:56.342
+00:05:05.229 --> 00:05:13.042
 The monthly cost view combines worked spend, confirmed future cover and an allowance for further demand.
 
-00:04:56.342 --> 00:05:03.779
+00:05:13.042 --> 00:05:20.480
 It shows a central scenario and range, helping the trust discuss likely budget pressure with Edwin.
 
-00:05:04.979 --> 00:05:10.314
+00:05:21.680 --> 00:05:27.014
 Rachel can test higher demand and review the requirements by school.
 
-00:05:10.314 --> 00:05:14.158
+00:05:27.014 --> 00:05:30.859
 Confirmed cover is separated from further demand.
 
-00:05:14.158 --> 00:05:19.964
+00:05:30.859 --> 00:05:36.664
 She can review a requirement with Sarah before arranging additional cover.
 
-00:05:19.964 --> 00:05:24.592
+00:05:36.664 --> 00:05:41.293
 Forecasts here are illustrative, not validated predictions.
 
-00:05:25.792 --> 00:05:30.094
-Now consider a separate request, E D M two oh one.
+00:05:42.493 --> 00:05:47.012
+For a separate booking, Edwin asks BrightPath for cover.
 
-00:05:30.094 --> 00:05:37.492
-BrightPath sees its own opportunities, capacity declarations, assignments and finance.
+00:05:47.012 --> 00:05:51.772
+Olivia submits an available educator and the evidence pack.
 
-00:05:37.492 --> 00:05:42.138
-Ben’s earlier confirmed booking is a different record.
+00:05:51.772 --> 00:05:56.613
+Edwin reviews the proposal and remains the school’s contact.
 
-00:05:43.338 --> 00:05:50.605
-Olivia proposes Eva, confirms availability and provides the charge to Edwin and the evidence pack.
-
-00:05:50.605 --> 00:05:56.537
-Internal purchasing information stays separate from the school’s agreed booking.
-
-00:05:57.737 --> 00:06:02.969
-BrightPath can track its submitted educator and evidence status.
-
-00:06:02.969 --> 00:06:06.730
-Edwin owns the review and school relationship.
-
-00:06:06.730 --> 00:06:11.308
-The school continues to use its usual booking interface.
-
-00:06:12.508 --> 00:06:17.406
+00:05:57.813 --> 00:06:02.711
 A separate rollout illustration shows exception-led handling.
 
-00:06:17.406 --> 00:06:22.785
+00:06:02.711 --> 00:06:08.090
 After Ben confirms readiness, Edwina sends the offer automatically.
 
-00:06:22.785 --> 00:06:30.172
+00:06:08.090 --> 00:06:15.477
 Start with consultant approvals, then automate agreed routine steps as evidence supports it.
 
-00:06:30.172 --> 00:06:34.266
+00:06:15.477 --> 00:06:19.572
 Human oversight and the same booking checks remain.
 
-00:06:35.466 --> 00:06:46.193
+00:06:20.772 --> 00:06:31.499
 The result is a connected service: suitable educators, timely responses, confirmed cover, visible ownership and useful trust insight.
 
-00:06:46.193 --> 00:06:53.775
+00:06:31.499 --> 00:06:39.080
 Consultants can spend more time on relationships while Edwina handles repeatable coordination.
