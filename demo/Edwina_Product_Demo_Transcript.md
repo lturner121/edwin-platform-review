@@ -2,61 +2,61 @@
 
 Captured prototype state transitions with narration. Synthetic data; proposed, simulated integrations.
 
-00:00 — Candidate: Approval comes before applications
-00:15 — School: Helen asks Edwin for a teacher
-00:28 — Edwin: A shortlist you can act on
-00:42 — Edwin: See how the shortlist was built
-00:58 — Candidate: One place to manage the working day
-01:08 — Candidate: Confirm availability now
-01:21 — Edwin: The response updates Sarah’s shortlist
-01:32 — Candidate: Accept with the details in view
-01:43 — Edwin: Acceptance recorded in Bullhorn
-01:58 — School: Confirmed cover on the school overview
-02:08 — School: Keep the personal connection
-02:18 — Candidate: Recommended work beyond this assignment
-02:31 — Sub Vendor: Submit a candidate with evidence
-02:44 — MAT: See the trust, then investigate
-02:58 — MAT: A reporting centre for everyday questions
-03:10 — MAT: Share the filtered view
-03:21 — MAT: An example of the shareable PDF
-03:36 — MAT: Anticipate cover demand
-03:49 — MAT: Understand the cost outlook
+00:00 — School: 08:00 — a school needs cover
+00:08 — Candidate: An approved candidate pool
+00:17 — Edwin: Helen’s request reaches Sarah
+00:26 — Edwin: Find the right available educator
+00:36 — Candidate: One place to manage the working day
+00:47 — Candidate: Ben confirms he can arrive
+00:55 — Edwin: Sarah sends the offer
+01:00 — Candidate: Accept with the details in view
+01:11 — Edwin: The placement is recorded in Bullhorn
+01:18 — School: Confirmed cover on the school overview
+01:29 — School: Keep the personal connection
+01:39 — Candidate: Recommended work beyond this assignment
+01:52 — Sub Vendor: No Edwin candidate available — ask BrightPath
+02:07 — MAT: See the trust, then investigate
+02:21 — MAT: A reporting centre for everyday questions
+02:33 — MAT: Share the filtered view
+02:44 — MAT: An example of the shareable PDF
+02:59 — MAT: Anticipate cover demand
+03:11 — MAT: Understand the cost outlook
 
-## Candidate — Approval comes before applications
+## School — 08:00 — a school needs cover
 
-Before Ben can apply for jobs, he completes background screening in llama dot I D. Its approved-candidate signal reaches Edwina, making him eligible to be considered. Candidates awaiting approval cannot apply or receive offers.
+It is eight in the morning. Helen needs a Year Six maths teacher for nine, so she messages Edwin on WhatsApp.
 
-## School — Helen asks Edwin for a teacher
+## Candidate — An approved candidate pool
 
-Helen, the school cover manager, uses WhatsApp on her phone to ask Edwin for a Year Six maths teacher. They need to arrive by eight forty-five. This illustrates the proposed WhatsApp integration.
+Ben has already completed background screening in llama dot I D. His approval is recorded in Edwina before matching begins.
 
-## Edwin — A shortlist you can act on
+## Edwin — Helen’s request reaches Sarah
 
-Helen’s message now appears in Sarah’s Edwina workspace, attached to the booking. Helen has not re-entered it in a portal. Edwina uses those requirements to find six potential matches.
+Sarah receives Helen’s message as a booking request. Edwina finds six potential matches for the school’s requirements.
 
-## Edwin — See how the shortlist was built
+## Edwin — Find the right available educator
 
-Edwina first includes only candidates with current llama dot I D approval. It then checks relevant experience, availability and whether they can arrive on time. The shortlist is ranked using experience, previous MAT work and feedback.
+Experience, availability and an on-time arrival narrow the pool. Previous school and trust experience, plus feedback, help rank the matches.
 
 ## Candidate — One place to manage the working day
 
 Ben sees the request on his Today page, alongside availability, timesheets, payroll setup and learning. The urgent assignment is the main action.
 
-## Candidate — Confirm availability now
+## Candidate — Ben confirms he can arrive
 
-Ben confirms he can arrive by eight forty-five. His reply can come through the app or the proposed WhatsApp connection. An available calendar is not assumed to mean he is ready to travel.
+Ben confirms he can arrive by eight forty-five. His reply updates Sarah’s shortlist.
 
-## Edwin — The response updates Sarah’s shortlist
+## Edwin — Sarah sends the offer
 
-Sarah can now see Ben’s readiness, response time and expected arrival. His experience and previous MAT work remain visible beside one clear action: send the offer.
+Sarah reviews Ben’s fit and expected arrival, then sends him the offer.
 
 ## Candidate — Accept with the details in view
 
 Ben reviews the school, pay, working hours and arrival instructions. He acknowledges the briefing and accepts. Everyone follows the same booking.
 
-## Edwin — Acceptance recorded in Bullhorn
+## Edwin — The placement is recorded in Bullhorn
 
-Ben has accepted. His existing approval is rechecked, and the proposed Bullhorn connection records the placement. This records the booking; background screening was completed before Ben entered the matching pool.
+Acceptance creates a placement in Bullhorn, so Sarah does not need to enter the booking again.
 
 ## School — Confirmed cover on the school overview
 
@@ -70,9 +70,9 @@ Helen messages Ben with reception instructions. He receives them against the ass
 
 Candidates can also browse recommended jobs, compare dates, pay and journey information, and register interest. Their schedule, pay records and learning remain part of the wider app.
 
-## Sub Vendor — Submit a candidate with evidence
+## Sub Vendor — No Edwin candidate available — ask BrightPath
 
-For a separate booking, Edwin asks BrightPath for cover. Olivia submits an available educator and the evidence pack. Edwin reviews the proposal and remains the school’s contact.
+For another booking, no Edwin candidate is available. Edwin sends the requirement to BrightPath, another agency. BrightPath proposes an educator for Edwin to review. Edwin remains the school’s contact.
 
 ## MAT — See the trust, then investigate
 
