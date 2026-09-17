@@ -5,26 +5,26 @@ Captured prototype state transitions with narration. Synthetic data; proposed, s
 00:00 — School: Helen asks Edwin for a teacher
 00:26 — Edwin: A shortlist you can act on
 00:42 — Edwin: See how the shortlist was built
-01:14 — Candidate: One place to manage the working day
-01:27 — Candidate: Confirm availability now
-01:42 — Edwin: The response updates Sarah’s shortlist
-01:57 — Candidate: Accept with the details in view
-02:10 — Edwin: Existing systems, one workflow
-02:30 — School: Confirmed cover on the school overview
-02:43 — School: Keep the personal connection
-02:55 — Candidate: The message reaches the educator
-03:08 — Candidate: Recommended work beyond this assignment
-03:23 — MAT: See the trust, then investigate
-03:41 — MAT: A reporting centre for everyday questions
-04:01 — MAT: Compare the drivers of demand and spend
-04:18 — MAT: Share the filtered view
-04:32 — MAT: An example of the shareable PDF
-04:50 — MAT: Anticipate cover demand
-05:05 — MAT: Understand the cost outlook
-05:21 — MAT: Turn insight into a planning conversation
-05:42 — Sub Vendor: Submit a candidate with evidence
-05:57 — Edwin: Roll out automation in stages
-06:20 — Edwin: Connected service, clear ownership
+01:05 — Candidate: One place to manage the working day
+01:19 — Candidate: Confirm availability now
+01:34 — Edwin: The response updates Sarah’s shortlist
+01:48 — Candidate: Accept with the details in view
+02:01 — Edwin: Existing systems, one workflow
+02:21 — School: Confirmed cover on the school overview
+02:34 — School: Keep the personal connection
+02:46 — Candidate: The message reaches the educator
+02:59 — Candidate: Recommended work beyond this assignment
+03:15 — MAT: See the trust, then investigate
+03:32 — MAT: A reporting centre for everyday questions
+03:52 — MAT: Compare the drivers of demand and spend
+04:09 — MAT: Share the filtered view
+04:23 — MAT: An example of the shareable PDF
+04:41 — MAT: Anticipate cover demand
+04:56 — MAT: Understand the cost outlook
+05:12 — MAT: Turn insight into a planning conversation
+05:33 — Sub Vendor: Submit a candidate with evidence
+05:48 — Edwin: Roll out automation in stages
+06:11 — Edwin: Connected service, clear ownership
 
 ## School — Helen asks Edwin for a teacher
 
@@ -36,7 +36,7 @@ Sarah sees the requirement, deadline and next step in one workspace. Instead of 
 
 ## Edwin — See how the shortlist was built
 
-The filters explain the result: relevant experience, a journey estimate, current checks, calendar availability and arrival time. Every requirement must pass. Travel preference is not an eligibility filter. The educator must confirm their starting point, travel mode and departure before an offer. Suitable candidates are ranked using experience, previous MAT work and feedback.
+Edwina checks relevant experience, current screening, availability and whether each candidate can arrive on time. It ranks suitable candidates using experience, previous MAT work and feedback. Before Sarah sends an offer, Ben confirms he can be at the school by eight forty-five.
 
 ## Candidate — One place to manage the working day
 
@@ -44,7 +44,7 @@ Ben sees the request on his Today page, alongside availability, timesheets, payr
 
 ## Candidate — Confirm availability now
 
-Ben confirms that he can leave within five minutes. His reply can come through the app or the proposed WhatsApp connection. An available calendar is not assumed to mean he is ready to travel.
+Ben confirms he can arrive by eight forty-five. His reply can come through the app or the proposed WhatsApp connection. An available calendar is not assumed to mean he is ready to travel.
 
 ## Edwin — The response updates Sarah’s shortlist
 
