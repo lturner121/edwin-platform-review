@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.034
+A guided tour of the Edwina prototype, using captured screens from the working demonstration.
+
+00:00:07.034 --> 00:00:17.471
+We will follow a candidate looking for work, a school booking cover, a trust reviewing performance, an Edwin consultant, and a Sub Vendor.
+
+00:00:17.471 --> 00:00:20.723
+All data and integrations are illustrative.
+
+00:00:21.923 --> 00:00:24.980
+Ben opens his personal home screen.
+
+00:00:24.980 --> 00:00:32.578
+His next assignment, gross pay, availability, timesheets and learning are in one place.
+
+00:00:32.578 --> 00:00:38.343
+He can contact Sarah, his named Edwin consultant, from the header.
+
+00:00:39.543 --> 00:00:48.014
+In Jobs, Ben sees a recommended primary maths role, with the date, daily gross pay and sample travel time.
+
+00:00:48.014 --> 00:00:52.569
+He can save the role or open it to assess the assignment.
+
+00:00:53.769 --> 00:01:01.612
+The role detail explains the recommendation: relevant experience, availability and travel preferences.
+
+00:01:01.612 --> 00:01:09.148
+Ben can inspect arrival information or message Sarah before deciding whether to register interest.
+
+00:01:10.348 --> 00:01:12.888
+Ben selects Register interest.
+
+00:01:12.888 --> 00:01:16.613
+The button now confirms Interest registered.
+
+00:01:16.613 --> 00:01:21.607
+This is an expression of interest, not a confirmed booking.
+
+00:01:21.607 --> 00:01:26.348
+Sarah still needs to review suitability with the school.
+
+00:01:27.548 --> 00:01:36.514
+Switching to the school, Helen sees decisions awaiting action, educators expected today and upcoming cover requests.
+
+00:01:36.514 --> 00:01:42.853
+These are separate example bookings, rather than the same role Ben just requested.
+
+00:01:44.053 --> 00:01:47.230
+Helen opens a primary teacher request.
+
+00:01:47.230 --> 00:01:53.082
+The shortlist shows Amelia, the school charge and relevant experience.
+
+00:01:53.082 --> 00:01:58.433
+Helen can invite her directly or ask Sarah for a recommendation.
+
+00:01:59.633 --> 00:02:03.793
+The confirmation step states the date and school charge.
+
+00:02:03.793 --> 00:02:12.336
+Sending the invitation leaves the booking pending until the educator accepts and the necessary checks are complete.
+
+00:02:12.336 --> 00:02:15.753
+It does not immediately confirm the placement.
+
+00:02:16.953 --> 00:02:24.369
+The messaging panel offers Sarah and educators attached to confirmed assignments as separate recipients.
+
+00:02:24.369 --> 00:02:31.287
+It provides quick access to a conversation, with the full inbox available for longer discussions.
+
+00:02:32.487 --> 00:02:40.587
+At trust level, Rachel sees spend against budget, fill rate, time to fill and open cover requests.
+
+00:02:40.587 --> 00:02:45.876
+School-level comparisons help her identify where to investigate.
+
+00:02:45.876 --> 00:02:50.256
+The figures and peer benchmarks here are sample data.
+
+00:02:51.456 --> 00:02:56.651
+The forecast view shows weekly cover demand and a scenario range.
+
+00:02:56.651 --> 00:03:00.168
+It illustrates how a trust could plan ahead.
+
+00:03:00.168 --> 00:03:08.960
+This is an assumed scenario, not a validated prediction or a live connection to Department for Education data.
+
+00:03:10.160 --> 00:03:15.930
+Sarah works from a queue of bookings and exceptions, with owners and due times.
+
+00:03:15.930 --> 00:03:24.255
+The aim is to organise the work requiring human judgment while keeping school and candidate relationships visible.
+
+00:03:25.455 --> 00:03:31.789
+The booking workbench brings routine and urgent examples into one entry point.
+
+00:03:31.789 --> 00:03:35.686
+Phase one requires consultant outreach approval.
+
+00:03:35.686 --> 00:03:40.477
+Phase two automates routine steps within the demonstration.
+
+00:03:40.477 --> 00:03:45.025
+Candidate acceptance and eligibility checks still apply.
+
+00:03:45.025 --> 00:03:48.922
+Expanded back-office automation remains planned.
+
+00:03:50.122 --> 00:03:53.686
+An approved Sub Vendor has its own workspace.
+
+00:03:53.686 --> 00:03:59.548
+Olivia sees requests, outstanding decisions and availability declarations.
+
+00:03:59.548 --> 00:04:06.122
+Her relationship is with Edwin, while the school uses its normal booking interface.
+
+00:04:07.322 --> 00:04:16.519
+Olivia opens the Year Six maths requirement, chooses an educator, enters the charge to Edwin and confirms availability.
+
+00:04:16.519 --> 00:04:21.157
+She submits the proposal and supporting evidence for review.
+
+00:04:22.357 --> 00:04:30.851
+The submission now lists Eva, the agency availability confirmation, the daily charge and Evidence review status.
+
+00:04:30.851 --> 00:04:32.898
+Submission is not approval.
+
+00:04:32.898 --> 00:04:45.184
+This concludes the five-role walkthrough of the current prototype; production integrations, security and remaining workflow refinements are still to be delivered.
