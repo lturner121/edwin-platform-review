@@ -3,27 +3,27 @@
 Captured prototype state transitions with narration. Synthetic data; proposed, simulated integrations.
 
 00:00 — School: Helen asks Edwin for a teacher
-00:14 — Edwin: A shortlist you can act on
-00:27 — Edwin: See how the shortlist was built
-00:46 — Candidate: One place to manage the working day
+00:13 — Edwin: A shortlist you can act on
+00:26 — Edwin: See how the shortlist was built
+00:45 — Candidate: One place to manage the working day
 00:56 — Candidate: Confirm availability now
-01:09 — Edwin: The response updates Sarah’s shortlist
+01:08 — Edwin: The response updates Sarah’s shortlist
 01:20 — Candidate: Accept with the details in view
 01:31 — Edwin: Existing systems, one workflow
-01:48 — School: Confirmed cover on the school overview
+01:47 — School: Confirmed cover on the school overview
 01:58 — School: Keep the personal connection
 02:08 — Candidate: Recommended work beyond this assignment
 02:21 — Sub Vendor: Submit a candidate with evidence
-02:34 — MAT: See the trust, then investigate
+02:33 — MAT: See the trust, then investigate
 02:48 — MAT: A reporting centre for everyday questions
-03:00 — MAT: Share the filtered view
+02:59 — MAT: Share the filtered view
 03:11 — MAT: An example of the shareable PDF
-03:26 — MAT: Anticipate cover demand
+03:25 — MAT: Anticipate cover demand
 03:38 — MAT: Understand the cost outlook
 
 ## School — Helen asks Edwin for a teacher
 
-At eight a.m., Helen, the school cover manager, messages Sarah at Edwin on WhatsApp. She needs a Year Six maths teacher for nine, arriving by eight forty-five. This is a simulated conversation.
+Helen, the school cover manager, uses WhatsApp on her phone to ask Edwin for a Year Six maths teacher. They need to arrive by eight forty-five. This illustrates the proposed WhatsApp integration.
 
 ## Edwin — A shortlist you can act on
 
