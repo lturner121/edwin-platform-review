@@ -1,136 +1,235 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:07.034
-A guided tour of the Edwina prototype, using captured screens from the working demonstration.
+00:00:00.000 --> 00:00:06.918
+Edwina connects candidates, schools, trusts, Edwin consultants and Sub Vendors.
 
-00:00:07.034 --> 00:00:17.471
-We will follow a candidate looking for work, a school booking cover, a trust reviewing performance, an Edwin consultant, and a Sub Vendor.
+00:00:06.918 --> 00:00:13.836
+This walkthrough follows actual prototype state changes using captured screens.
 
-00:00:17.471 --> 00:00:20.723
-All data and integrations are illustrative.
+00:00:13.836 --> 00:00:17.865
+People, routes and integrations are simulated.
 
-00:00:21.923 --> 00:00:24.980
-Ben opens his personal home screen.
+00:00:17.865 --> 00:00:22.418
+The candidate Today page now fits without scrolling.
 
-00:00:24.980 --> 00:00:32.578
-His next assignment, gross pay, availability, timesheets and learning are in one place.
+00:00:23.618 --> 00:00:28.460
+A school needs a Year Six maths teacher in Grimsby for nine.
 
-00:00:32.578 --> 00:00:38.343
-He can contact Sarah, his named Edwin consultant, from the header.
+00:00:28.460 --> 00:00:31.849
+This sample represents a WhatsApp request.
 
-00:00:39.543 --> 00:00:48.014
-In Jobs, Ben sees a recommended primary maths role, with the date, daily gross pay and sample travel time.
+00:00:31.849 --> 00:00:38.789
+Portal requests and a consultant logging a phone call enter the same booking workflow.
 
-00:00:48.014 --> 00:00:52.569
-He can save the role or open it to assess the assignment.
+00:00:38.789 --> 00:00:42.097
+Free text understanding is not connected.
 
-00:00:53.769 --> 00:01:01.612
-The role detail explains the recommendation: relevant experience, availability and travel preferences.
+00:00:43.297 --> 00:00:48.652
+The shortlist is calculated from five thousand synthetic profiles.
 
-00:01:01.612 --> 00:01:09.148
-Ben can inspect arrival information or message Sarah before deciding whether to register interest.
+00:00:48.652 --> 00:00:57.902
+Verified experience, local travel, assignment checks, availability and arrival feasibility narrow the pool to two.
 
-00:01:10.348 --> 00:01:12.888
-Ben selects Register interest.
+00:00:57.902 --> 00:01:04.475
+This is a working rules demonstration, not a validated production matching model.
 
-00:01:12.888 --> 00:01:16.613
-The button now confirms Interest registered.
+00:01:05.675 --> 00:01:13.441
+Ben ranks ahead based on reviewed experience, previous trust assignments, sample feedback and travel.
 
-00:01:16.613 --> 00:01:21.607
-This is an expression of interest, not a confirmed booking.
+00:01:13.441 --> 00:01:16.824
+Open Why this match to inspect the evidence.
 
-00:01:21.607 --> 00:01:26.348
-Sarah still needs to review suitability with the school.
+00:01:16.824 --> 00:01:24.129
+Suitability is separate from readiness: neither candidate has yet confirmed they can leave now.
 
-00:01:27.548 --> 00:01:36.514
-Switching to the school, Helen sees decisions awaiting action, educators expected today and upcoming cover requests.
+00:01:25.329 --> 00:01:29.019
+We introduce an outstanding screening task.
 
-00:01:36.514 --> 00:01:42.853
-These are separate example bookings, rather than the same role Ben just requested.
+00:01:29.019 --> 00:01:34.081
+Ben is directed to a proposed secure llama dot I D handoff.
 
-00:01:44.053 --> 00:01:47.230
-Helen opens a primary teacher request.
+00:01:34.081 --> 00:01:37.514
+The demonstration collects no documents.
 
-00:01:47.230 --> 00:01:53.082
-The shortlist shows Amelia, the school charge and relevant experience.
+00:01:37.514 --> 00:01:45.322
+This is a proposed integration contract, subject to confirmation with Edwin’s product team.
 
-00:01:53.082 --> 00:01:58.433
-Helen can invite her directly or ask Sarah for a recommendation.
+00:01:46.522 --> 00:01:51.650
+Completing that task leaves the screening outcome pending review.
 
-00:01:59.633 --> 00:02:03.793
-The confirmation step states the date and school charge.
+00:01:51.650 --> 00:01:55.042
+Ben is removed from the eligible shortlist.
 
-00:02:03.793 --> 00:02:12.336
-Sending the invitation leaves the booking pending until the educator accepts and the necessary checks are complete.
+00:01:55.042 --> 00:01:58.277
+A strong match cannot override screening.
 
-00:02:12.336 --> 00:02:15.753
-It does not immediately confirm the placement.
+00:01:58.277 --> 00:02:03.247
+Edwin must review the outcome before he becomes eligible again.
 
-00:02:16.953 --> 00:02:24.369
-The messaging panel offers Sarah and educators attached to confirmed assignments as separate recipients.
+00:02:04.447 --> 00:02:11.249
+After the reviewed screening outcome returns, Ben confirms he can leave within five minutes.
 
-00:02:24.369 --> 00:02:31.287
-It provides quick access to a conversation, with the full inbox available for longer discussions.
+00:02:11.249 --> 00:02:15.611
+He can choose the sample WhatsApp or candidate app channel.
 
-00:02:32.487 --> 00:02:40.587
-At trust level, Rachel sees spend against budget, fill rate, time to fill and open cover requests.
+00:02:15.611 --> 00:02:21.821
+Calendar availability alone does not establish readiness for this urgent assignment.
 
-00:02:40.587 --> 00:02:45.876
-School-level comparisons help her identify where to investigate.
+00:02:23.021 --> 00:02:28.898
+Ben now shows Ready now, with the confirmation time and WhatsApp source.
 
-00:02:45.876 --> 00:02:50.256
-The figures and peer benchmarks here are sample data.
+00:02:28.898 --> 00:02:34.121
+His sample arrival includes departure time, travel and a buffer.
 
-00:02:51.456 --> 00:02:56.651
-The forecast view shows weekly cover demand and a scenario range.
+00:02:34.121 --> 00:02:38.202
+In copilot mode, Sarah authorises the timed offer.
 
-00:02:56.651 --> 00:03:00.168
-It illustrates how a trust could plan ahead.
+00:02:39.402 --> 00:02:44.365
+Ben sees the same school, date, pay and arrival instructions.
 
-00:03:00.168 --> 00:03:08.960
-This is an assumed scenario, not a validated prediction or a live connection to Department for Education data.
+00:02:44.365 --> 00:02:49.328
+He acknowledges the briefing and accepts before the deadline.
 
-00:03:10.160 --> 00:03:15.930
-Sarah works from a queue of bookings and exceptions, with owners and due times.
+00:02:49.328 --> 00:02:54.372
+Sending an invitation is not treated as a confirmed placement.
 
-00:03:15.930 --> 00:03:24.255
-The aim is to organise the work requiring human judgment while keeping school and candidate relationships visible.
+00:02:55.572 --> 00:03:00.325
+We deliberately simulate an unavailable Bullhorn connection.
 
-00:03:25.455 --> 00:03:31.789
-The booking workbench brings routine and urgent examples into one entry point.
+00:03:00.325 --> 00:03:04.762
+Ben has accepted, but the placement is not acknowledged.
 
-00:03:31.789 --> 00:03:35.686
-Phase one requires consultant outreach approval.
+00:03:04.762 --> 00:03:10.545
+The booking remains pending and no final confirmation goes to the school.
 
-00:03:35.686 --> 00:03:40.477
-Phase two automates routine steps within the demonstration.
+00:03:10.545 --> 00:03:14.586
+The consultant can see the failed integration step.
 
-00:03:40.477 --> 00:03:45.025
-Candidate acceptance and eligibility checks still apply.
+00:03:15.786 --> 00:03:20.370
+After restoring the simulated connection, Sarah retries.
 
-00:03:45.025 --> 00:03:48.922
-Expanded back-office automation remains planned.
+00:03:20.370 --> 00:03:25.937
+Eligibility is checked again and the same correlation key is reused.
 
-00:03:50.122 --> 00:03:53.686
-An approved Sub Vendor has its own workspace.
+00:03:25.937 --> 00:03:28.885
+One placement reference is recorded.
 
-00:03:53.686 --> 00:03:59.548
-Olivia sees requests, outstanding decisions and availability declarations.
+00:03:28.885 --> 00:03:33.060
+Only then does the shared booking become confirmed.
 
-00:03:59.548 --> 00:04:06.122
-Her relationship is with Edwin, while the school uses its normal booking interface.
+00:03:34.260 --> 00:03:43.097
+Helen now sees Ben confirmed for the eight forty-five arrival, with the agreed school charge and assignment assurance.
 
-00:04:07.322 --> 00:04:16.519
-Olivia opens the Year Six maths requirement, chooses an educator, enters the charge to Edwin and confirms availability.
+00:03:43.097 --> 00:03:47.515
+Technical screening details and CRM errors stay with Edwin.
 
-00:04:16.519 --> 00:04:21.157
-She submits the proposal and supporting evidence for review.
+00:03:48.715 --> 00:03:52.116
+Helen sends Ben the reception instructions.
 
-00:04:22.357 --> 00:04:30.851
-The submission now lists Eva, the agency availability confirmation, the daily charge and Evidence review status.
+00:03:52.116 --> 00:03:58.206
+The recipient selector also offers Sarah at Edwin as a separate conversation.
 
-00:04:30.851 --> 00:04:32.898
-Submission is not approval.
+00:03:58.206 --> 00:04:02.081
+The message is attached to the confirmed booking.
 
-00:04:32.898 --> 00:04:45.184
-This concludes the five-role walkthrough of the current prototype; production integrations, security and remaining workflow refinements are still to be delivered.
+00:04:03.281 --> 00:04:07.708
+The same school message appears in Ben’s assignment view.
+
+00:04:07.708 --> 00:04:15.552
+This demonstrates a shared conversation across the two workspaces, rather than an isolated chat form.
+
+00:04:16.752 --> 00:04:21.432
+The trust can open the confirmed booking from its overview.
+
+00:04:21.432 --> 00:04:27.224
+Spend, budget, fill rate and school comparisons provide the broader view.
+
+00:04:27.224 --> 00:04:35.396
+Historical metrics remain a separate sample cohort; this one booking does not rewrite past performance.
+
+00:04:36.596 --> 00:04:41.260
+The trust can inspect weekly demand and a forecast scenario.
+
+00:04:41.260 --> 00:04:49.500
+The range is an assumption, not a statistical confidence interval or a live Department for Education feed.
+
+00:04:49.500 --> 00:04:54.320
+It illustrates the planning interface awaiting validated data.
+
+00:04:55.520 --> 00:05:00.958
+We reset the same matching scenario and choose exception-led handling.
+
+00:05:00.958 --> 00:05:03.211
+Sarah logs the school’s call.
+
+00:05:03.211 --> 00:05:10.824
+Edwina can now request readiness and send an eligible offer without separate consultant approvals.
+
+00:05:12.024 --> 00:05:16.832
+After Ben confirms readiness, the offer is sent automatically.
+
+00:05:16.832 --> 00:05:23.037
+The displayed counters track implemented workflow actions in this demonstration.
+
+00:05:23.037 --> 00:05:26.759
+They do not claim a measured staffing reduction.
+
+00:05:27.959 --> 00:05:32.147
+This time Ben does not accept before the deadline.
+
+00:05:32.147 --> 00:05:34.157
+The reservation expires.
+
+00:05:34.157 --> 00:05:41.695
+The updated clock makes Amelia’s arrival too late, so no direct educator remains eligible.
+
+00:05:41.695 --> 00:05:46.553
+Edwina releases the requirement to an approved Sub Vendor.
+
+00:05:47.753 --> 00:05:55.668
+Olivia proposes Eva for the same school requirement, confirms availability and submits sample evidence.
+
+00:05:55.668 --> 00:06:00.509
+Her charge to Edwin is separate from the school’s agreed price.
+
+00:06:01.709 --> 00:06:07.851
+The proposal remains in Evidence review with Edwin compliance as the next owner.
+
+00:06:07.851 --> 00:06:10.691
+It is not yet a confirmed assignment.
+
+00:06:10.691 --> 00:06:16.603
+Edwin reviews the evidence, then requests Eva’s own readiness and acceptance.
+
+00:06:17.803 --> 00:06:22.328
+Eva confirms she can arrive and receives the timed offer.
+
+00:06:22.328 --> 00:06:27.487
+Agency availability confirmation does not replace her acceptance.
+
+00:06:27.487 --> 00:06:32.408
+She reads the same school briefing and accepts the assignment.
+
+00:06:33.608 --> 00:06:40.247
+The school now sees Eva confirmed in the same booking, at the unchanged school charge.
+
+00:06:40.247 --> 00:06:44.415
+It does not need a separate partner booking interface.
+
+00:06:44.415 --> 00:06:49.278
+Sourcing and internal purchasing remain Edwin responsibilities.
+
+00:06:50.478 --> 00:06:56.230
+Separately from the urgent booking, candidates can browse recommended roles.
+
+00:06:56.230 --> 00:07:05.388
+This example shows the date, gross pay, journey estimate and relevant experience before they decide to register interest.
+
+00:07:06.588 --> 00:07:10.808
+Registering interest is distinct from accepting an offer.
+
+00:07:10.808 --> 00:07:15.991
+The candidate sees that Sarah will review suitability with the school.
+
+00:07:15.991 --> 00:07:24.802
+The matching and integration flows remain prototypes, ready for product and operational validation before a live pilot.

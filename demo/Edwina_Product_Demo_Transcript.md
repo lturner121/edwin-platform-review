@@ -1,84 +1,129 @@
-# Edwina product walkthrough
+# Edwina — connected matching walkthrough
 
-Narrated screen-based demonstration. All data and integrations are illustrative.
+Captured prototype state transitions with narration. Synthetic data; proposed, simulated integrations.
 
-00:00 — Product overview: Five views. One service.
-00:21 — Candidate: Start with your day
-00:39 — Candidate: Find relevant work
-00:53 — Candidate: Understand the fit
-01:10 — Candidate: Request the opportunity
-01:27 — School: See what needs attention
-01:44 — School: Choose an educator
-01:59 — School: Invite with clear terms
-02:16 — School: Keep the relationship personal
-02:32 — MAT: Understand the whole trust
-02:51 — MAT: Plan future cover
-03:10 — Edwin consultant: Work the action queue
-03:25 — Edwin consultant: Control the level of automation
-03:50 — Sub Vendor: Declare available capacity
-04:07 — Sub Vendor: Propose an educator
-04:22 — Sub Vendor: Track the next decision
+00:00 — Candidate: Your day, in one screen
+00:23 — School: An eight a.m. request
+00:43 — Edwin: Five thousand profiles. Two eligible educators.
+01:05 — Edwin: Inspect why someone fits
+01:25 — Candidate: A secure llama.id handoff
+01:46 — Edwin: Submission does not mean clearance
+02:04 — Candidate: Confirm readiness through the preferred channel
+02:23 — Edwin: Readiness updates the same shortlist
+02:39 — Candidate: An offer requires acceptance
+02:55 — Edwin: Hold confirmation if Bullhorn fails
+03:15 — Edwin: Retry without duplicating the placement
+03:34 — School: The school receives a clear outcome
+03:48 — School: Message the educator or Sarah
+04:03 — Candidate: The message reaches the candidate
+04:16 — MAT: Trust oversight with booking access
+04:36 — MAT: Plan ahead with transparent assumptions
+04:55 — Edwin: Replay under exception-led handling
+05:12 — Edwin: Routine steps happen automatically
+05:27 — Edwin: Recalculate when an offer expires
+05:47 — Sub Vendor: Propose a ready educator
+06:01 — Sub Vendor: Track evidence ownership
+06:17 — Candidate: The educator still accepts
+06:33 — School: One booking, regardless of sourcing
+06:50 — Candidate: Candidates can also find work
+07:06 — Candidate: Interest has a clear status
 
-## Product overview — Five views. One service.
+## Candidate — Your day, in one screen
 
-A guided tour of the Edwina prototype, using captured screens from the working demonstration. We will follow a candidate looking for work, a school booking cover, a trust reviewing performance, an Edwin consultant, and a Sub Vendor. All data and integrations are illustrative.
+Edwina connects candidates, schools, trusts, Edwin consultants and Sub Vendors. This walkthrough follows actual prototype state changes using captured screens. People, routes and integrations are simulated. The candidate Today page now fits without scrolling.
 
-## Candidate — Start with your day
+## School — An eight a.m. request
 
-Ben opens his personal home screen. His next assignment, gross pay, availability, timesheets and learning are in one place. He can contact Sarah, his named Edwin consultant, from the header.
+A school needs a Year Six maths teacher in Grimsby for nine. This sample represents a WhatsApp request. Portal requests and a consultant logging a phone call enter the same booking workflow. Free text understanding is not connected.
 
-## Candidate — Find relevant work
+## Edwin — Five thousand profiles. Two eligible educators.
 
-In Jobs, Ben sees a recommended primary maths role, with the date, daily gross pay and sample travel time. He can save the role or open it to assess the assignment.
+The shortlist is calculated from five thousand synthetic profiles. Verified experience, local travel, assignment checks, availability and arrival feasibility narrow the pool to two. This is a working rules demonstration, not a validated production matching model.
 
-## Candidate — Understand the fit
+## Edwin — Inspect why someone fits
 
-The role detail explains the recommendation: relevant experience, availability and travel preferences. Ben can inspect arrival information or message Sarah before deciding whether to register interest.
+Ben ranks ahead based on reviewed experience, previous trust assignments, sample feedback and travel. Open Why this match to inspect the evidence. Suitability is separate from readiness: neither candidate has yet confirmed they can leave now.
 
-## Candidate — Request the opportunity
+## Candidate — A secure llama.id handoff
 
-Ben selects Register interest. The button now confirms Interest registered. This is an expression of interest, not a confirmed booking. Sarah still needs to review suitability with the school.
+We introduce an outstanding screening task. Ben is directed to a proposed secure llama dot I D handoff. The demonstration collects no documents. This is a proposed integration contract, subject to confirmation with Edwin’s product team.
 
-## School — See what needs attention
+## Edwin — Submission does not mean clearance
 
-Switching to the school, Helen sees decisions awaiting action, educators expected today and upcoming cover requests. These are separate example bookings, rather than the same role Ben just requested.
+Completing that task leaves the screening outcome pending review. Ben is removed from the eligible shortlist. A strong match cannot override screening. Edwin must review the outcome before he becomes eligible again.
 
-## School — Choose an educator
+## Candidate — Confirm readiness through the preferred channel
 
-Helen opens a primary teacher request. The shortlist shows Amelia, the school charge and relevant experience. Helen can invite her directly or ask Sarah for a recommendation.
+After the reviewed screening outcome returns, Ben confirms he can leave within five minutes. He can choose the sample WhatsApp or candidate app channel. Calendar availability alone does not establish readiness for this urgent assignment.
 
-## School — Invite with clear terms
+## Edwin — Readiness updates the same shortlist
 
-The confirmation step states the date and school charge. Sending the invitation leaves the booking pending until the educator accepts and the necessary checks are complete. It does not immediately confirm the placement.
+Ben now shows Ready now, with the confirmation time and WhatsApp source. His sample arrival includes departure time, travel and a buffer. In copilot mode, Sarah authorises the timed offer.
 
-## School — Keep the relationship personal
+## Candidate — An offer requires acceptance
 
-The messaging panel offers Sarah and educators attached to confirmed assignments as separate recipients. It provides quick access to a conversation, with the full inbox available for longer discussions.
+Ben sees the same school, date, pay and arrival instructions. He acknowledges the briefing and accepts before the deadline. Sending an invitation is not treated as a confirmed placement.
 
-## MAT — Understand the whole trust
+## Edwin — Hold confirmation if Bullhorn fails
 
-At trust level, Rachel sees spend against budget, fill rate, time to fill and open cover requests. School-level comparisons help her identify where to investigate. The figures and peer benchmarks here are sample data.
+We deliberately simulate an unavailable Bullhorn connection. Ben has accepted, but the placement is not acknowledged. The booking remains pending and no final confirmation goes to the school. The consultant can see the failed integration step.
 
-## MAT — Plan future cover
+## Edwin — Retry without duplicating the placement
 
-The forecast view shows weekly cover demand and a scenario range. It illustrates how a trust could plan ahead. This is an assumed scenario, not a validated prediction or a live connection to Department for Education data.
+After restoring the simulated connection, Sarah retries. Eligibility is checked again and the same correlation key is reused. One placement reference is recorded. Only then does the shared booking become confirmed.
 
-## Edwin consultant — Work the action queue
+## School — The school receives a clear outcome
 
-Sarah works from a queue of bookings and exceptions, with owners and due times. The aim is to organise the work requiring human judgment while keeping school and candidate relationships visible.
+Helen now sees Ben confirmed for the eight forty-five arrival, with the agreed school charge and assignment assurance. Technical screening details and CRM errors stay with Edwin.
 
-## Edwin consultant — Control the level of automation
+## School — Message the educator or Sarah
 
-The booking workbench brings routine and urgent examples into one entry point. Phase one requires consultant outreach approval. Phase two automates routine steps within the demonstration. Candidate acceptance and eligibility checks still apply. Expanded back-office automation remains planned.
+Helen sends Ben the reception instructions. The recipient selector also offers Sarah at Edwin as a separate conversation. The message is attached to the confirmed booking.
 
-## Sub Vendor — Declare available capacity
+## Candidate — The message reaches the candidate
 
-An approved Sub Vendor has its own workspace. Olivia sees requests, outstanding decisions and availability declarations. Her relationship is with Edwin, while the school uses its normal booking interface.
+The same school message appears in Ben’s assignment view. This demonstrates a shared conversation across the two workspaces, rather than an isolated chat form.
 
-## Sub Vendor — Propose an educator
+## MAT — Trust oversight with booking access
 
-Olivia opens the Year Six maths requirement, chooses an educator, enters the charge to Edwin and confirms availability. She submits the proposal and supporting evidence for review.
+The trust can open the confirmed booking from its overview. Spend, budget, fill rate and school comparisons provide the broader view. Historical metrics remain a separate sample cohort; this one booking does not rewrite past performance.
 
-## Sub Vendor — Track the next decision
+## MAT — Plan ahead with transparent assumptions
 
-The submission now lists Eva, the agency availability confirmation, the daily charge and Evidence review status. Submission is not approval. This concludes the five-role walkthrough of the current prototype; production integrations, security and remaining workflow refinements are still to be delivered.
+The trust can inspect weekly demand and a forecast scenario. The range is an assumption, not a statistical confidence interval or a live Department for Education feed. It illustrates the planning interface awaiting validated data.
+
+## Edwin — Replay under exception-led handling
+
+We reset the same matching scenario and choose exception-led handling. Sarah logs the school’s call. Edwina can now request readiness and send an eligible offer without separate consultant approvals.
+
+## Edwin — Routine steps happen automatically
+
+After Ben confirms readiness, the offer is sent automatically. The displayed counters track implemented workflow actions in this demonstration. They do not claim a measured staffing reduction.
+
+## Edwin — Recalculate when an offer expires
+
+This time Ben does not accept before the deadline. The reservation expires. The updated clock makes Amelia’s arrival too late, so no direct educator remains eligible. Edwina releases the requirement to an approved Sub Vendor.
+
+## Sub Vendor — Propose a ready educator
+
+Olivia proposes Eva for the same school requirement, confirms availability and submits sample evidence. Her charge to Edwin is separate from the school’s agreed price.
+
+## Sub Vendor — Track evidence ownership
+
+The proposal remains in Evidence review with Edwin compliance as the next owner. It is not yet a confirmed assignment. Edwin reviews the evidence, then requests Eva’s own readiness and acceptance.
+
+## Candidate — The educator still accepts
+
+Eva confirms she can arrive and receives the timed offer. Agency availability confirmation does not replace her acceptance. She reads the same school briefing and accepts the assignment.
+
+## School — One booking, regardless of sourcing
+
+The school now sees Eva confirmed in the same booking, at the unchanged school charge. It does not need a separate partner booking interface. Sourcing and internal purchasing remain Edwin responsibilities.
+
+## Candidate — Candidates can also find work
+
+Separately from the urgent booking, candidates can browse recommended roles. This example shows the date, gross pay, journey estimate and relevant experience before they decide to register interest.
+
+## Candidate — Interest has a clear status
+
+Registering interest is distinct from accepting an offer. The candidate sees that Sarah will review suitability with the school. The matching and integration flows remain prototypes, ready for product and operational validation before a live pilot.
