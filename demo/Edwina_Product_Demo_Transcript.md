@@ -2,24 +2,29 @@
 
 Captured prototype state transitions with narration. Synthetic data; proposed, simulated integrations.
 
-00:00 — School: Helen asks Edwin for a teacher
-00:13 — Edwin: A shortlist you can act on
-00:26 — Edwin: See how the shortlist was built
-00:45 — Candidate: One place to manage the working day
-00:56 — Candidate: Confirm availability now
-01:08 — Edwin: The response updates Sarah’s shortlist
-01:20 — Candidate: Accept with the details in view
-01:31 — Edwin: Existing systems, one workflow
-01:47 — School: Confirmed cover on the school overview
-01:58 — School: Keep the personal connection
-02:08 — Candidate: Recommended work beyond this assignment
-02:21 — Sub Vendor: Submit a candidate with evidence
-02:33 — MAT: See the trust, then investigate
-02:48 — MAT: A reporting centre for everyday questions
-02:59 — MAT: Share the filtered view
-03:11 — MAT: An example of the shareable PDF
-03:25 — MAT: Anticipate cover demand
-03:38 — MAT: Understand the cost outlook
+00:00 — Candidate: Approval comes before applications
+00:15 — School: Helen asks Edwin for a teacher
+00:28 — Edwin: A shortlist you can act on
+00:42 — Edwin: See how the shortlist was built
+00:58 — Candidate: One place to manage the working day
+01:08 — Candidate: Confirm availability now
+01:21 — Edwin: The response updates Sarah’s shortlist
+01:32 — Candidate: Accept with the details in view
+01:43 — Edwin: Acceptance recorded in Bullhorn
+01:58 — School: Confirmed cover on the school overview
+02:08 — School: Keep the personal connection
+02:18 — Candidate: Recommended work beyond this assignment
+02:31 — Sub Vendor: Submit a candidate with evidence
+02:44 — MAT: See the trust, then investigate
+02:58 — MAT: A reporting centre for everyday questions
+03:10 — MAT: Share the filtered view
+03:21 — MAT: An example of the shareable PDF
+03:36 — MAT: Anticipate cover demand
+03:49 — MAT: Understand the cost outlook
+
+## Candidate — Approval comes before applications
+
+Before Ben can apply for jobs, he completes background screening in llama dot I D. Its approved-candidate signal reaches Edwina, making him eligible to be considered. Candidates awaiting approval cannot apply or receive offers.
 
 ## School — Helen asks Edwin for a teacher
 
@@ -31,7 +36,7 @@ Helen’s message now appears in Sarah’s Edwina workspace, attached to the boo
 
 ## Edwin — See how the shortlist was built
 
-Edwina checks relevant experience, current screening, availability and whether each candidate can arrive on time. It ranks suitable candidates using experience, previous MAT work and feedback. Before Sarah sends an offer, Ben confirms he can be at the school by eight forty-five.
+Edwina first includes only candidates with current llama dot I D approval. It then checks relevant experience, availability and whether they can arrive on time. The shortlist is ranked using experience, previous MAT work and feedback.
 
 ## Candidate — One place to manage the working day
 
@@ -49,9 +54,9 @@ Sarah can now see Ben’s readiness, response time and expected arrival. His exp
 
 Ben reviews the school, pay, working hours and arrival instructions. He acknowledges the briefing and accepts. Everyone follows the same booking.
 
-## Edwin — Existing systems, one workflow
+## Edwin — Acceptance recorded in Bullhorn
 
-The proposed llama dot I D connection supplies screening evidence, with Edwin retaining the clearance decision. Once Ben accepts and checks pass, the proposed Bullhorn connection records the placement. Sarah does not need to re-enter the booking.
+Ben has accepted. His existing approval is rechecked, and the proposed Bullhorn connection records the placement. This records the booking; background screening was completed before Ben entered the matching pool.
 
 ## School — Confirmed cover on the school overview
 
