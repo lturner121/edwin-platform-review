@@ -1123,4 +1123,19 @@ printEvidence=async function(){if(decisionEvidence?.type==='board')return planni
 window.addEventListener('click',async e=>{const el=e.target.closest('button');if(!el)return;const d=el.dataset;if('planBoardAdd'in d||'planBoardRefresh'in d){consume(e);if(!planningCan('board')||!planningCan('finance'))return toast('Board reporting is not enabled.');if('planBoardAdd'in d)state.scenarioSavings=true;ensurePlanning().boardSnapshot=planningBoardSnapshot();saveDecisionState();showBoard();}if('planBoardPdf'in d){consume(e);try{await planningBoardPdf();}catch(err){console.error(err);toast('PDF could not be created. Reopen the board pack and retry.');}}if('planBoardCsv'in d){consume(e);const s=ensurePlanning().boardSnapshot;if(!planningBoardPermitted(s))return;saveFile('SP_board_school_figures.csv',[[s.scope,s.period,s.version],...(s.eligible?[['School','Forecast','Budget','Worked actual','Prior year'],...s.schools.map(x=>[x.name,x.forecast*1000,x.budget*1000,x.spent*1000,x.prior*1000])]:[['School','Selected spend (£)'],...s.selectedSchools])].map(r=>r.map(csvCell).join(',')).join('\r\n'));}},true);
 document.addEventListener('change',e=>{if(e.target.dataset.planBoardSection){const id=e.target.dataset.planBoardSection,s=ensurePlanning().boardSnapshot;if(!planningBoardPermitted(s))return;s.sections=e.target.checked?[...new Set(s.sections.concat(id))]:s.sections.filter(x=>x!==id);ensurePlanning().boardSections=[...s.sections];saveDecisionState();showBoard();}});
 
+// Publish a school-scoped view of the same MAT reporting ledger and permissions.
+planningReportPermissions.approveTime='Approve / query timesheets';
+for(const role of ['leader','requester'])if(ensurePlanning().permissions[role].approveTime===undefined)ensurePlanning().permissions[role].approveTime=true;
+function shareSchoolReporting(){
+ if(!window.MAT_CONNECTED)return;
+ for(const role of ['leader','requester'])if(ensurePlanning().permissions[role].approveTime===undefined)ensurePlanning().permissions[role].approveTime=true;
+ const s=schoolData.find(s=>s.name==='Willow Learning Centre'),v=ledgerVersion(),budget=v?.rows.find(r=>r.school===s.id);
+ parent.postMessage({type:'school-reporting-snapshot',value:{asOf:PLANNING_ASOF,school:{id:'willow',name:s.name,pupils:s.pupils},version:versionLabel(),permissions:ensurePlanning().permissions,
+ rows:planningLedger.filter(r=>r.school===s.id).map(r=>({...r,school:'willow',phase:s.phase})),budget:budget?.monthly||months.map(()=>s.budget*1000/12),
+ service:{requested:s.requests,filled:s.filled,period:'September–October 2026'}}},'*');
+}
+const schoolSharingRender=render;render=function(){schoolSharingRender();shareSchoolReporting();};
+const schoolSharingSave=saveDecisionState;saveDecisionState=function(){schoolSharingSave();shareSchoolReporting();};
+window.addEventListener('message',e=>{if(e.source===parent&&e.data?.type==='school-reporting-request')shareSchoolReporting();});
+
 render();</script></body></html>
