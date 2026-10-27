@@ -77,6 +77,65 @@ body{caret-color:var(--accent-ink);scrollbar-color:var(--border-hover) var(--sur
 @media(max-width:650px){.bench-row{grid-template-columns:1fr 105px}.scaled-benchmark{grid-column:1/3}.bench-row>.pill{grid-column:1/3}.hero .annual-compare{margin:12px 0}.hero .hero-chart{display:none}.hero .decision-summary{font-size:14px}.hero-foot{gap:6px}.copilot-home{margin-top:12px}.has-assistant .hero-chart{display:none}.operations-strip{gap:14px}.report-controls select{max-width:200px}.operational-note{align-items:flex-start;flex-direction:column}.ops-live-frame{height:70vh;min-height:520px}}
 .reason-track{display:block;width:115px;height:6px;background:var(--surface-subtle);border-radius:3px;overflow:hidden;margin:6px 0}.reason-track i{display:block;height:100%;background:var(--chart-4)}.reason-track .structural{background:var(--chart-1)}.reason-track .temporary{background:var(--chart-3)}
 .study-embedded .study{display:none}.study-embedded .shell{min-height:100vh}.study-embedded .sidebar{height:100vh}.operational-note .group{display:flex;gap:8px;flex-wrap:wrap}@media(max-width:650px){.study-embedded .sidebar{height:auto}}
+
+/* Responsive plot geometry, with consistent card padding and legible labels. */
+.grid2>.panel{display:flex;flex-direction:column}
+.grid2>.panel>header{flex:none;min-height:60px}
+.fitted-chart-panel>.panel-body{display:flex;flex:1;flex-direction:column;min-height:0}
+.plot-frame{position:relative;width:100%;height:280px;min-height:250px;flex:1}
+.sized-plot{display:block;position:absolute;inset:0;width:100%;height:100%;overflow:visible;min-width:0!important}
+.sized-plot text{font-size:13px;fill:var(--text-secondary);font-family:var(--font-ui)}
+.sized-plot .plot-value{font-size:15px;font-weight:600;fill:var(--text)}
+.sized-plot .plot-grid{stroke:var(--border);stroke-width:1}
+.sized-plot .plot-target{stroke:var(--text-secondary);stroke-dasharray:4 4;stroke-width:1}
+.plot-dark text{fill:var(--on-dark)}
+.plot-dark .plot-grid{stroke:var(--on-dark-line);opacity:.5}
+.plot-dark .plot-target{stroke:var(--on-dark)}
+.hero-chart .plot-frame{height:230px;min-height:215px;flex:1}
+.hero-chart .legend{margin-top:12px}
+.panel-body>.legend,.panel-body>.chart-caption{flex:none}
+.plot-risk{min-height:290px}
+.plot-waterfall{min-height:300px}
+.plot-columns{min-height:285px}
+.horizontal-bars{gap:14px;flex:1;align-content:space-around}
+.horizontal-bars .hbar{grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center;min-height:34px;font-size:15px}
+.hbar>.track{grid-column:1/-1;grid-row:2;height:12px}
+.hbar>b{grid-column:2;grid-row:1;font-size:15px}
+.hbar .tick{top:-3px;height:18px}
+.mix-chart{display:flex;flex-direction:column;gap:0;flex:1}
+.mix-chart-head,.mix-chart-row{display:grid;grid-template-columns:minmax(0,1fr) 83px 94px;gap:8px 10px;align-items:center;font-size:14px}
+.mix-chart-head{color:var(--text-secondary);padding-bottom:12px}
+.mix-chart-head>span:not(:first-child),.mix-chart-row>strong{text-align:right;font-weight:500}
+.mix-chart-row{flex:1;min-height:57px;padding:10px 0;border-top:1px solid var(--border)}
+.mix-chart-row>.track{position:relative;grid-column:1/-1;height:15px;background:var(--surface-subtle);border-radius:3px}
+.mix-chart-row .fill{display:block;height:100%;border-radius:3px}
+.mix-chart-row .tick{position:absolute;width:2px;top:-3px;bottom:-3px;background:var(--text)}
+.school-bars{display:flex;flex-direction:column;flex:1;padding:4px 20px 18px}
+.school-bar{grid-template-columns:1fr auto;gap:10px;flex:1;min-height:68px;padding:14px 0;font-size:15px}
+.school-bar>.name{font-size:15px;text-align:left}
+.school-track{grid-column:1/-1;height:18px}
+.school-track>.bullet{height:18px}
+.school-bars>.legend{margin-top:18px;flex:none}
+.reason-list{flex:1;display:flex;flex-direction:column}
+.reason-row{padding:13px 18px;border-bottom:1px solid var(--border);display:grid;grid-template-columns:1fr auto;gap:5px 12px;align-items:start;font-size:14px}
+.reason-row:last-child{border-bottom:0}
+.reason-row strong,.reason-row b{font-weight:550}
+.reason-kind{display:block;color:var(--text-secondary);font-size:12px;margin-top:3px}
+.reason-values{text-align:right;display:grid;gap:3px}
+.reason-values>span{font-size:13px}
+.reason-response{grid-column:1/-1;color:var(--text-secondary)}
+[data-chart-layout=forecast]>.grid2:last-of-type{align-items:start}
+[data-chart-layout=forecast] .wide-left .plot-frame{min-height:285px}
+[data-chart-layout=service] .heatmap{height:100%;min-height:280px;table-layout:fixed}
+[data-chart-layout=service] .heatmap th:first-child{width:100px}
+[data-chart-layout=service] .panel:has(.heatmap)>.panel-body{display:flex;flex-direction:column;flex:1}
+[data-chart-layout=service] .panel:has(.heatmap) .chart-caption{margin-top:16px}
+[data-chart-layout=reports]>.panel .horizontal-bars{display:grid;grid-template-columns:1fr;column-gap:36px;row-gap:22px}
+[data-chart-layout=reports]>.panel .horizontal-bars:has(.hbar:nth-child(7)){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:1150px){.plot-frame{height:270px;flex:none}.hero-chart .plot-frame{height:240px;flex:none}.mix-chart-row{min-height:60px}}
+@media(max-width:650px){.plot-frame{height:260px;min-height:0}.plot-risk{height:285px}.plot-waterfall{height:280px}.plot-columns{height:280px}.sized-plot text{font-size:12px}.sized-plot .plot-value{font-size:14px}.school-bar{min-height:64px}.reason-row{padding:13px 14px}.mix-chart-head,.mix-chart-row{grid-template-columns:minmax(0,1fr) 69px 78px;font-size:13px;gap:8px 6px}.horizontal-bars{gap:18px}[data-chart-layout=reports]>.panel .horizontal-bars{grid-template-columns:1fr}.hero-chart .plot-frame{min-height:0}}
+@media print{.plot-frame{height:250px;flex:none}}
+@media(max-width:650px){[data-chart-layout=reports]>.panel .horizontal-bars:has(.hbar:nth-child(7)){grid-template-columns:1fr}}
 </style></head><body><div class="study"><span>MAT design study · example data</span><label class="theme-picker">Theme <select data-theme-select aria-label="Preview brand theme"><option value="edwin">Edwin</option><option value="neutral">Neutral preview</option></select></label><button data-detail="design">About this study</button></div><div class="shell"><aside class="sidebar"><a class="brand" href="#overview" aria-label="SP+ Overview"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjIgMTU5Ij48cGF0aCBmaWxsPSIjMzBiZWJjIiBkPSJtMTYxLjE2IDEyMS4xNy03LjQtNDIuMDFjLTEuNC03Ljg5LTguOS0xMy4xNC0xNi43OS0xMS43NmwtNDIuMDEgNy40Yy03Ljg5IDEuNC0xMy4xNCA4LjktMTEuNzYgMTYuNzktMS40LTcuODctOC45LTEzLjE0LTE2Ljc4LTExLjc2IDcuODgtMS40IDEzLjEzLTguOTIgMTEuNzMtMTYuNzlsLTcuNC00Mi4wMWMtMS40LTcuODktOC45LTEzLjE0LTE2Ljc5LTExLjc2TDExLjk3IDE2LjdDNC4xIDE4LjA5LTEuMTcgMjUuNjEuMjIgMzMuNWw3LjQgNDIuMDFDOSA4My4zOCAxNi41MSA4OC42NSAyNC4zOCA4Ny4yN2MtNy44NyAxLjQtMTMuMTMgOC45Mi0xMS43MyAxNi43OWw3LjQgNDIuMDFjMS40IDcuODkgOC45IDEzLjE0IDE2Ljc5IDExLjc2bDQyLjAxLTcuNGM3Ljg5LTEuMzggMTMuMTQtOC45IDExLjc2LTE2Ljc5IDEuNCA3Ljg5IDguOSAxMy4xNCAxNi43OSAxMS43Nmw0Mi4wMS03LjRjNy44OS0xLjM4IDEzLjE0LTguOSAxMS43Ni0xNi43OXYtLjAzWiIvPjxwYXRoIGZpbGw9IiNmMjVhNDkiIGQ9Im03NC4yNSA0MS45OS4wNy40MWMzLjQyIDE5LjQyIDIxLjk1IDMyLjM5IDQxLjM3IDI4Ljk3bC40MS0uMDZjMTkuNDItMy40MiAzMi4zOS0yMS45NSAyOC45Ny00MS4zN2wtLjA3LS40MWMtMy40Mi0xOS40NS0yMS45NS0zMi40LTQxLjM3LTI4Ljk4bC0uNDEuMDdDODMuOCA0LjA0IDcwLjgzIDIyLjU3IDc0LjI1IDQxLjk5Ii8+PC9zdmc+" alt="">SP+</a><div class="tenant">Northlight Learning Trust<small>12 schools · 6,880 pupils</small></div><nav id="nav" aria-label="MAT navigation"></nav><div class="side-bottom"><a href="#settings" id="settings-link"></a><div class="identity"><span class="avatar">RC</span><span>Rachel Clarke<small>Trust finance</small></span></div></div></aside><div class="workarea"><header class="topbar"><h1 id="page-title">Overview</h1><div class="toptools"><button data-detail="scope" class="scope-button">2026/27 <span>⌄</span></button><button data-board class="board-button">Board pack</button><button data-copilot class="copilot-button">Spend Copilot</button></div></header><div class="content-wrap"><main id="main"></main><aside id="assistant" class="assistant" aria-label="Spend Copilot" hidden></aside></div></div></div><button id="messages" class="messages" aria-label="Open messages"></button><section id="chat" class="chat" aria-label="Messages" hidden></section><dialog id="detail"></dialog><div id="toast" role="status"></div><script>// Product identity is separate from the visual theme. Add approved brands here;
 // their semantic colour overrides belong in theme.css, never in components.
 const MAT_BRANDS={
@@ -316,5 +375,84 @@ if(window.MAT_CONNECTED){
  });
  parent.postMessage({type:'ready'},'*');
 }
+
+// Charts use the available plot area; text stays at a readable, unscaled size.
+function plotHost(kind, data, label) {
+ return `<div class="plot-frame plot-${kind}" data-sizing-plot="${kind}" data-plot="${esc(JSON.stringify(data))}" role="img" aria-label="${esc(label)}">${drawSizedPlot(kind,data,560,280)}</div>`;
+}
+trend=function(dark=false){return plotHost('monthly',{dark},'Monthly actual and forecast spend against budget and last year, in thousands of pounds')+legend([['Actual','var(--accent)'],['Forecast','var(--chart-forecast)'],['Last year',dark?'var(--chart-prior-dark)':'var(--chart-prior)'],['Budget',dark?'var(--on-dark)':'var(--text-secondary)','line']]);};
+riskPlot=function(){return plotHost('risk',{},'School budget variance against cover risk. Willow, Brookside and Northgate are high risk and over budget. Hollins Park is high risk despite being under budget.');};
+waterfall=function(){return plotHost('waterfall',{},'Budget gap £107k, recruitment saving £30k, fixed-term posts £38k, rates £5k, pool £41k. After actions: £7k under budget.');};
+breakdownChart=function(type=state.breakdown){const rows=breakdowns[type],max=Math.max(...rows.flatMap(r=>[r[1],r[2]]))*1.08;return `<div class="mix-chart"><div class="mix-chart-head"><span>${esc(type)}</span><span>Forecast</span><span>vs last year</span></div>${rows.map(([n,v,p],i)=>`<div class="mix-chart-row"><span>${n}</span><strong>${k(v)}</strong><strong class="${v>p?'negative':'positive'}">${variance(v-p)}</strong><div class="track"><i class="fill" style="width:${v/max*100}%;background:${colours[i]}"></i><i class="tick" style="left:${p/max*100}%"></i></div></div>`).join('')}</div>${legend([['Forecast','var(--chart-1)'],['Last year','var(--text)','tick']])}`;};
+bars=function(rows,max,unit='%',compare=false){return `<div class="horizontal-bars" style="--bar-count:${rows.length}">${rows.map(([n,v,p],i)=>`<div class="hbar"><span>${esc(n)}</span><span class="track"><i class="fill" style="width:${v/max*100}%;background:${colours[i%5]}"></i>${compare?`<i class="tick" style="left:${p/max*100}%"></i>`:''}</span><b>${unit==='£'?money(v):unit==='k'?k(v):v+unit}</b></div>`).join('')}</div>`;};
+reasonWorking=function(){return `<div class="reason-list">${breakdowns.Reason.map(([n,v,p,c])=>`<div class="reason-row"><div><strong>${n}</strong><span class="reason-kind">${c}</span></div><div class="reason-values"><b>${k(v)}</b><span class="${v>p?'negative':'positive'}">${variance(v-p)} vs last year</span></div><span class="reason-response">${reasonResponses[n]}</span></div>`).join('')}</div>`;};
+schoolBars=function(){return `<div class="school-bars">${[2,0,3,1].map(i=>{const s=schoolData[i];return `<div class="school-bar"><button class="name" data-school="${i}">${s.name.replace(/ Academy| Learning Centre/g,'')}</button><span class="var ${s.forecast>s.budget?'negative':'positive'}">${variance(s.forecast-s.budget)}</span><div class="school-track"><div class="bullet" style="width:${s.forecast/750*100}%"><i class="worked" style="width:${s.spent/s.forecast*100}%"></i>${s.forecast>s.budget?`<i class="over" style="width:${(s.forecast-s.budget)/s.forecast*100}%"></i>`:''}<i class="budget" style="left:${s.budget/s.forecast*100}%"></i></div></div></div>`;}).join('')}${legend([['Spent','var(--chart-1)'],['Remaining','var(--chart-remaining)'],['Over budget','var(--negative-fill)'],['Budget','var(--text)','tick']])}</div>`;};
+
+function drawSizedPlot(kind,data,w,h){
+ const text=(x,y,s,anchor='start',extra='')=>`<text x="${x}" y="${y}" text-anchor="${anchor}" ${extra}>${esc(String(s))}</text>`;
+ const line=(x1,y1,x2,y2,extra='')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" ${extra}/>`;
+ const rect=(x,y,width,height,fill,extra='')=>`<rect x="${x}" y="${y}" width="${Math.max(0,width)}" height="${Math.max(0,height)}" fill="${fill}" ${extra}/>`;
+ let content='',dark=data.dark;
+ if(kind==='monthly'){
+  const left=48,right=w-8,top=25,base=h-30,step=(right-left)/12,scale=(base-top)/500,bw=Math.min(22,step*.34),y=v=>base-v*scale;
+  content+=rect(left+step*2,top-10,right-left-step*2,base-top+10,dark?'var(--overlay-light)':'var(--surface-subtle)');
+  [0,200,400].forEach(v=>{content+=line(left,y(v),right,y(v),'class="plot-grid"')+text(left-7,y(v)+4,v?'£'+v+'k':'£0','end');});
+  monthly.forEach((v,i)=>{let x=left+step*(i+.5);content+=`<g><title>${['Sep','Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'][i]}: ${k(v)} ${i<2?'actual':'forecast'}; last year ${k(lastYear[i])}</title>`+rect(x-bw-1,y(lastYear[i]),bw,lastYear[i]*scale,dark?'var(--chart-prior-dark)':'var(--chart-prior)','rx="2"')+rect(x+1,y(v),bw,v*scale,i<2?'var(--accent)':'var(--chart-forecast)','rx="2"')+'</g>'+(w<400&&i%2?'':text(x,base+23,['Sep','Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'][i],'middle'));});
+  content+=line(left,y(4040/12),right,y(4040/12),'class="plot-target"')+text(left+step*2+6,top+4,'Forecast →');
+ }
+ if(kind==='risk'){
+  const left=45,right=w-10,top=30,bottom=h-55,x=v=>left+(v+80)/240*(right-left),y=v=>bottom-v/100*(bottom-top),mid=x(0),half=y(50);
+  content+=rect(left,top,mid-left,half-top,'var(--warning-surface)')+rect(mid,top,right-mid,half-top,'var(--negative-surface)')+rect(left,half,mid-left,bottom-half,'var(--positive-surface)')+rect(mid,half,right-mid,bottom-half,'var(--surface-subtle)');
+  content+=line(mid,top,mid,bottom,'class="plot-target"')+line(left,half,right,half,'class="plot-target"');
+  content+=text(left+8,top+17,'Support people')+text(right-8,top+17,'Intervene','end')+text(left+8,bottom-9,'Stable')+text(right-8,bottom-9,'Review spend','end');
+  schoolData.forEach(s=>{const cx=x(s.forecast-s.budget),cy=y(s.risk);content+=`<g><title>${s.name}: ${variance(s.forecast-s.budget)}, cover risk ${s.risk}/100</title><circle cx="${cx}" cy="${cy}" r="${5+Math.sqrt(s.pupils)/5}" fill="${s.risk>60?(s.forecast>s.budget?'var(--negative-fill)':'var(--warning-fill)'):'var(--chart-risk-low)'}" stroke="var(--surface)" stroke-width="2"/>${s.risk>60?text(Math.min(cx,right-5),cy+25,s.name.split(' ')[0],cx>right-40?'end':'middle'):''}</g>`;});
+  content+=text(left,bottom+21,'−£80k')+text(mid,bottom+21,'On budget','middle')+text(right,bottom+21,'+£160k','end')+text((left+right)/2,h-7,'Forecast variance against budget','middle')+text(0,0,'Cover risk','middle',`transform="translate(15 ${(top+bottom)/2}) rotate(-90)"`);
+ }
+ if(kind==='waterfall'){
+  const left=8,right=w-8,top=32,base=h-62,scale=(base-top)/120,step=(right-left)/6,bw=Math.min(58,step*.6),y=v=>base-v*scale,values=[107,77,39,34,-7,-7],starts=[0,107,77,39,34,0];
+  content+=line(left,base,right,base,'class="plot-grid"');
+  values.forEach((v,i)=>{const a=starts[i],x=left+step*(i+.5)-bw/2,hi=Math.max(a,v),lo=Math.min(a,v);content+=rect(x,y(hi),bw,(hi-lo)*scale,i===0?'var(--negative-fill)':i===5?'var(--positive-text)':'var(--chart-1)','rx="2"')+text(x+bw/2,y(hi)-10,['+£107k','−£30k','−£38k','−£5k','−£41k','−£7k'][i],'middle')+text(x+bw/2,h-10,['Gap','Recruit','TA posts','Rates','Pool','After'][i],'middle');if(i<5)content+=line(x+bw,y(v),left+step*(i+1.5)-bw/2,y(v),'class="plot-target"');});
+ }
+ if(kind==='columns'){
+  const rows=data.rows,max=data.max,left=52,right=w-8,top=30,base=h-48,step=(right-left)/rows.length,bw=Math.min(84,step*.55),y=v=>base-v/max*(base-top);
+  [0,.5,1].forEach(f=>{const v=max*f;content+=line(left,y(v),right,y(v),'class="plot-grid"')+text(left-8,y(v)+4,k(v),'end');});
+  rows.forEach(([label,v],i)=>{const x=left+step*(i+.5);content+=rect(x-bw/2,y(v),bw,base-y(v),data.sameColor?'var(--chart-1)':colours[i],'rx="3"')+text(x,y(v)-10,k(v),'middle','class="plot-value"');const labels=label.includes('Support')?[label.replace(' Support',''),'Support']:[label];labels.forEach((l,j)=>{content+=text(x,base+22+j*17,l,'middle');});});
+ }
+ if(kind==='service'){
+  const left=43,right=w-12,top=24,base=h-32,y=v=>base-(v-80)/20*(base-top),x=i=>left+12+i*(right-left-24)/5,values=[91,93,94,95,96,96];
+  [80,90,100].forEach(v=>{content+=line(left,y(v),right,y(v),'class="plot-grid"')+text(left-7,y(v)+4,v+'%','end');});
+  content+=line(left,y(95),right,y(95),'class="plot-target"')+text(right,y(95)-8,'95% target','end')+`<polyline points="${values.map((v,i)=>`${x(i)},${y(v)}`).join(' ')}" fill="none" stroke="var(--chart-line)" stroke-width="3"/>`;
+  values.forEach((v,i)=>{content+=`<circle cx="${x(i)}" cy="${y(v)}" r="5" fill="var(--chart-line)"><title>Week ${i+1}: ${v}%</title></circle>`+text(x(i),base+23,'W'+(i+1),'middle');});
+ }
+ return `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true" class="sized-plot ${dark?'plot-dark':''}">${content}</svg>`;
+}
+
+const chartLayoutRender=renderMain;
+let plotResizeObserver;
+function observeSizedPlots(){
+ const draw=el=>{const box=el.getBoundingClientRect();if(box.width>0&&box.height>0)el.innerHTML=drawSizedPlot(el.dataset.sizingPlot,JSON.parse(el.dataset.plot),Math.round(box.width),Math.round(box.height));};
+ plotResizeObserver??=new ResizeObserver(entries=>entries.forEach(({target})=>draw(target)));
+ document.querySelectorAll('[data-sizing-plot]').forEach(el=>{draw(el);plotResizeObserver.observe(el);});
+}
+const chartLayoutModal=modal;
+modal=function(...args){chartLayoutModal(...args);observeSizedPlots();};
+renderMain=function(){
+ plotResizeObserver?.disconnect();chartLayoutRender();
+ const root=$('#main');root.dataset.chartLayout=state.route;
+ const panels=[...root.querySelectorAll('.panel')];
+ const titled=t=>panels.find(p=>p.querySelector('h2')?.textContent===t);
+ const replaceBody=(title,html)=>{const p=titled(title);if(p){p.querySelector('.panel-body').innerHTML=html;p.classList.add('fitted-chart-panel');}};
+ if(state.route==='workforce'){
+  const rows=['Teaching','Academic Support','Non-Academic Support'].filter(c=>state.workCategory==='All categories'||state.workCategory===c).map(c=>[c,workforceRoles.filter(r=>r[0]===c).reduce((s,r)=>s+r[4],0)]);
+  const largest=Math.max(...rows.map(r=>r[1])),step=largest>1000?500:50,max=Math.ceil(largest/step)*step;
+  replaceBody('Spend by category',plotHost('columns',{rows,max},'Forecast spend by workforce category in thousands of pounds'));
+ }
+ if(state.route==='forecast')replaceBody('SEND: a persistent increase',plotHost('columns',{rows:[['2024/25',640],['2025/26',771],['2026/27',1010]],max:1200,sameColor:true},'SEND spend: £640k, £771k and £1,010k over three years')+'<p class="chart-caption"><strong>+58% in two years.</strong> Review funded support, staffing plans and long-term cover together.</p>');
+ if(state.route==='service')replaceBody('Service trend',plotHost('service',{},'Weekly fill rate: 91%, 93%, 94%, 95%, 96%, 96%. Target 95%.')+'<p class="chart-caption">Weekly fill trend; term total is weighted by requests.</p>');
+ for(const p of panels){if(p.querySelector('.plot-frame,.horizontal-bars,.mix-chart,.school-bars'))p.classList.add('fitted-chart-panel');}
+ if(state.route==='overview')titled('What changed — and what to do')?.classList.add('reason-panel');
+ // Recompute plot geometry when the card changes width, including Copilot open/close.
+ observeSizedPlots();
+};
 
 render();</script></body></html>
